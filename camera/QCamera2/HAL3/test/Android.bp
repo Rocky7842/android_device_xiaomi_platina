@@ -4,6 +4,7 @@ cc_binary {
     name: "hal3-test-app",
     compile_multilib: "32",
     cflags: [
+        "-DQCAMERA_HAL3_SUPPORT",
         "-Wall",
         "-Wextra",
         "-Werror",
