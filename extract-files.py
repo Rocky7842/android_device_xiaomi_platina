@@ -26,6 +26,7 @@ namespace_imports = [
     'hardware/qcom-caf/sdm660',
     'hardware/qcom-caf/wlan',
     'hardware/xiaomi',
+    'vendor/qcom/opensource/display',
 ]
 
 def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
