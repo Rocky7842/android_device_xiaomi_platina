@@ -23,8 +23,8 @@ from extract_utils.main import (
 namespace_imports = [
     'vendor/xiaomi/sdm660-common',
     'hardware/qcom-caf/common/libqti-perfd-client',
+    'hardware/qcom-caf/sdm660',
     'hardware/qcom/wlan/legacy',
-    'hardware/qcom-caf/msm8996',
     'hardware/xiaomi',
 ]
 
