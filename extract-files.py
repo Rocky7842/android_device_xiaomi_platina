@@ -40,6 +40,8 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/etc/permissions/com.fingerprints.extension.xml': blob_fixup()
+        .regex_replace('/system/framework/', '/system_ext/framework/'),
     'vendor/lib/libMiCameraHal.so': blob_fixup()
         .add_needed('libpiex_shim.so'),
     'vendor/lib/libmmcamera_faceproc.so': blob_fixup()
